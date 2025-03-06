@@ -1,0 +1,90 @@
+*{
+    font-family: monospace;
+    font-size: 150px;
+    font-weight: 50px;
+    color: white;
+    text-align: center;
+    align-content: center;
+
+}
+
+html
+{
+    height: 90.9%;
+    background-color: #121212;
+    
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* min-height: 100%; */
+    /* width: 100vh; */
+    margin: 0;
+    padding: 0;
+}
+
+.capcelera{
+    /* background-color: darkred; */
+    flex: 1 0 auto;
+    height:10%;
+}
+
+.peu{
+    /* background-color: darkred; */
+    flex: 1 0 auto;
+    height:10%;
+}
+
+.calculatorBody{
+    flex: 1 0 auto;
+    height:90%;
+    display: flex;
+   
+   
+}
+
+.column1, .column2{
+    flex: 1 0 auto;
+    /* background-color: blueviolet; */
+}
+
+.calculatorColumn{
+    flex: 1 0 auto;
+    width:60%;
+    background-color: #282828 ;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.4em;
+}
+
+.calculatorRowInterior{
+    flex: 1 0 auto;
+    /* background-color: aquamarine; */
+    /* border: 10px solid  antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+}
+.button, .buttonC , .buttonOperator, .buttonEqual{
+    flex: 0 0 auto;
+    width:20%;
+    background-color: #3f3f3f;
+    margin: 45px;
+    border-radius: 0.2em;
+    border:10px solid #575757 ;
+    
+}
+
+.numberScreen{
+    flex: 0 0 auto;
+    background-color: #3f3f3f;
+    margin: 45px;
+    width: 70%;
+    text-align: right;
+    padding-right: 50px;
+    border-radius: 0.2em;
+}
+.buttonC{
+    background-color: #717171;
+}

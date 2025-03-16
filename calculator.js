@@ -47,7 +47,7 @@ function operate(operator, num1, num2) {
 }
 
 
-//listeneres
+//listeneres dels botons
 buttons.addEventListener('click', (event) => {
   let target = event.target;
   switch(target.className){
